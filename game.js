@@ -6,7 +6,6 @@ class Game {
         this.canvas.width = this._config.canvas.width
         this.canvas.heigth = this._config.canvas.height
         this.img = new Image();
-        //this.img.src = "https://i.ibb.co/Q9yv5Jk/flappy-bird-set.png";
         this.img.src = "http://localhost:63342/flap_bird/assets/sprite.png";
         this.field1 = this._config.field1
         this.field1.width = this._config.field1.width
